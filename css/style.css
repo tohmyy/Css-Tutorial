@@ -1,0 +1,53 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    color: yellow;
+    font-size: 22px;
+}
+
+.lorem{
+    color: white;
+}
+/* .lorem{
+    font-weight: bolder;
+    color: brown;
+} */
+
+
+p{
+    color:whitesmoke;
+    font-size: 20px;
+}
+
+h2, h3{
+    color: black;
+}
+
+
+p span{
+    background-color: blue;
+    text-transform: uppercase;
+}
+.highlight{
+    background-color: blue;
+    text-transform: uppercase;
+}
+
+.side-img{
+
+}
+main{
+    margin-right: 50%;
+}
+img{
+    margin-left: 50%;
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+html{
+    background-color: #12569b;
+}
