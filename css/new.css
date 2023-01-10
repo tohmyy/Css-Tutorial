@@ -1,0 +1,146 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.5rem;
+    /* position: relative; */
+}
+
+h1{
+    font-family: cursive;
+}
+
+.container{
+    border: 2px dashed orange;
+    font-size: 1.5rem;
+    margin: 2em 2rem 5rem 2rem;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    outline: 20px double black;
+    outline-offset: 1px
+}
+ 
+p{
+    line-height: 2;
+    letter-spacing: 0.3em;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 350;
+    /* margin: 3rem; */
+    
+}
+
+.submit{
+    /* margin: 10px 50px; */
+    padding: 2rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 2px solid beige;
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 1.2em;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: dodgerblue;
+}
+
+.submit:visited{
+    background-color: blueviolet;
+}
+.name{
+    border-radius: 20px;
+    padding: 2rem;
+    padding-top: 0.5em ;
+}
+form{
+    padding: 0%;
+    margin: 25px;
+    font: inherit;
+}
+fieldset{
+    padding: 3rem;
+    padding-left: 4em;
+    padding-right: 2em;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: papayawhip;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+section{
+    margin-left: 1em;
+}
+
+ul{
+    list-style: square url("../done_FILL0_wght400_GRAD0_opsz48.png") inside;
+}
+
+li a{
+    color: yellowgreen ;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+
+li a:visited{
+    color: brown;
+}
+
+li a:hover, li a:focus{
+    opacity: 0.6;
+    font-size: 1.1em;
+    /* color: dodgerblue; */
+}
+
+li a:active{
+    color: darkmagenta;
+}
+
+/* article{
+    margin-left: 1em;
+} */
+
+ol{
+    list-style:lower-alpha inside;
+}
+
+ol li:nth-child(3){
+    color:blue;
+}
+
+ul ::marker{
+    color: red;
+    content: "SUVs" url("../done_FILL0_wght400_GRAD0_opsz48.png") ;
+}
+article{
+    width: 100%;
+    position: fixed;
+    top:0;
+}
+article ol{
+    background-color: crimson;
+    text-align: right;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+}
+.opposite{
+    display: inline-block;
+    margin-inline: 0.5rem;
+    list-style-type: none;
+    /* text-align: right; */
+}
+
+.footer{
+    position: sticky;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    bottom: 0;
+
+}

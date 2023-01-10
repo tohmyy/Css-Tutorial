@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    /* background-color: black; */
+    background: linear-gradient(steelblue, #fff), right bottom url("../2480254.jpg");
+    position: relative;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+}
+
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+
+.example img{
+    width: 50%;
+    height:25%;/*(the width wont be 25%) this way it'll be 25% of the section container that it'll use up  */
+}
+
+.container{
+    background-color: pink;
+    background-image: url('../105178.jpg');
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.cup{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(100, 100, 100, 0.39);
+    /* gap: 4rem; */
+}
+
+.profile-pic{
+    width: 25%;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.h1{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 20px;
+    font-size: 500%;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black;
+    margin: 5% 5%;
+    /* background-color: rgba(0, 0, 0, 0.39); */
+}
+
+.clip{
+    display: flex;
+    /* margin: 50px 50px; */
+    margin-top: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    width: 20vw;
+    border: 10px double whitesmoke;
+    padding: 10px;
+    font-size:2rem;
+    /* text-align: center; */
+    color: transparent;
+    /* background-image: linear-gradient(yellow, black); */
+    background-image: url(../105159.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: cover;
+    
+}

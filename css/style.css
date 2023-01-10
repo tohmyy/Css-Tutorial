@@ -1,10 +1,14 @@
 *{
     font-family: monospace;
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
 }
 
 body{
     color: yellow;
     font-size: 22px;
+    min-height: 100vh;
 }
 
 .lorem{
@@ -18,7 +22,10 @@ body{
 
 p{
     color:whitesmoke;
-    font-size: 20px;
+    font-size: 1rem;
+    border: 5px dashed green;
+    padding: 2em;
+    margin-left: 10px;
 }
 
 h2, h3{
@@ -27,27 +34,71 @@ h2, h3{
 
 
 p span{
+    border: 4px dashed red;
     background-color: blue;
     text-transform: uppercase;
 }
 .highlight{
+
     background-color: blue;
     text-transform: uppercase;
 }
 
-.side-img{
+
+/* main{
+    margin-right: 50%;
+} */
+main h1, main h2, main p, main span{
+    /* margin-left: 50%;
+    /* display: inline-block; */
+    /* float: left; */
+}
+main .side{
+    background-color: black;
+    float: left;
+    /* margin-left: 50%; */
+    margin-right: 10px;
+    width: 50%;
+
+    /* height: 2000px; */
+}
+
+main img{
+    /* display: none; */
+    background-color: green;
+    /* margin-bottom: 100%; */
+    /* margin-right: 10px; */
+    height: 1250px;
+    width: 100%;
 
 }
-main{
-    margin-right: 50%;
+
+.block{
+    background-color:aquamarine;
+    float: right;
+    height: 30vw;
+    width: 30vw; 
 }
-img{
+
+/* img{
     margin-left: 50%;
     width: 50%;
     height: 50%;
     float: right;
+} */
+.circle{
+    background-color: gray;
+    border: 2px solid blue;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid red;
+    border-radius: 50%;
+    min-height: 1rem;
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
 }
 
 html{
+    /* margin: 1px; */
     background-color: #12569b;
 }
